@@ -1,12 +1,8 @@
-for i in range(10):
-    sum += i
+def square(side):
+    per = side * 4
+    squ = side ** 2
+    diag = (2 * (side ** 2)) ** 0.5
 
-a = 7 # создание переменной
-b = 9
+    return per, squ, diag
 
-if a > b:
-    print("a больше чем b")
-elif a < b:
-    print("b больше чем a")
-else:
-    print("a равно b")
+print(square(5))
