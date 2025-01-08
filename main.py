@@ -1,16 +1,8 @@
+def square(side):
+    per = side * 4
+    squ = side ** 2
+    diag = (2 * (side ** 2)) ** 0.5
 
-print("Я конфликтую")
+    return per, squ, diag
 
-for i in range(10):
-    sum += i
-
-a = 7 # создание переменной
-b = 9
-
-if a > b:
-    print("a больше чем b")
-elif a < b:
-    print("b больше чем a")
-else:
-    print("a равно b")
-
+print(square(5))
