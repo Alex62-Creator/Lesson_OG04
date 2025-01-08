@@ -5,4 +5,6 @@ def square(side):
 
     return per, squ, diag
 
-print(square(5))
+s = input("Введите сторону квадрата") # Внес изменения в ветке test
+
+print(square(s)) # Внес изменения в ветке test
